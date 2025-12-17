@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elegant Background GIF Webpage</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gif-box {
+            width: 400px;
+            height: 250px;
+            background-image: url("https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif");
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            opacity: 0.75;
+            transition: all 1s ease;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gif-box:hover {
+            width: 480px;
+            height: 300px;
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: white;
+            background: rgba(0,0,0,0.5);
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-shadow: 2px 2px 6px black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="gif-box">
+        <h1>Welcome ✨</h1>
+    </div>
+
+</body>
+</html>
